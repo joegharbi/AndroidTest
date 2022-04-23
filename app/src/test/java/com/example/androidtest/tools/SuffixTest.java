@@ -8,7 +8,7 @@ public class SuffixTest {
 
 
     @Test
-    public void testCase1() {
+    public void suffixTestValidTestCase() {
         Suffix s1= new Suffix("abcd",2);
         try {
         assertEquals("cd",s1.getSuffix());
@@ -18,7 +18,7 @@ public class SuffixTest {
         }
     }
     @Test
-    public void testCase2() {
+    public void suffixTestSecondInputNegative() {
         Suffix s2= new Suffix("abcd",-1);
         try {
             s2.getSuffix();
@@ -29,7 +29,7 @@ public class SuffixTest {
         }
     }
     @Test
-    public void testCase3() {
+    public void suffixTestSecondInputZero() {
         Suffix s3= new Suffix("abcd",0);
         try {
             s3.getSuffix();
@@ -40,7 +40,7 @@ public class SuffixTest {
         }
     }
     @Test
-    public void testCase4() {
+    public void suffixTestSecondInputLargerThanFirstInputLength() {
         Suffix s4= new Suffix("abcd",10);
         try {
             s4.getSuffix();
