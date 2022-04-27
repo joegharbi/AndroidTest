@@ -29,10 +29,10 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Find Suffix"
-        android:id="@+id/button"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        android:text="Get Suffix"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
